@@ -1,11 +1,5 @@
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -187,7 +181,7 @@ td,
 th {
   padding: 0;
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
 @media print {
   *,
   *:before,
@@ -1183,7 +1177,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1287,6 +1281,8 @@ h6,
   font-size: 12px;
 }
 p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size:17px;
   margin: 0 0 10px;
 }
 .lead {
@@ -1408,6 +1404,7 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 .page-header {
+  font-size:30px;
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
@@ -4817,13 +4814,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #fff;
+  background-color: #009688;
+  color: #fff;
   border: 1px solid #ddd;
   border-radius: 15px;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
+  color: #000;
   background-color: #eee;
 }
 .pager .next > a,
@@ -5242,8 +5241,9 @@ a.thumbnail.active {
   list-style: none;
 }
 .list-group {
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .list-group-item {
   position: relative;
@@ -5450,13 +5450,13 @@ button.list-group-item-danger.active:focus {
 .panel {
   margin-bottom: 20px;
   background-color: #fff;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 .panel-body {
-  padding: 15px;
+  padding: 20px;
 }
 .panel-heading {
   padding: 10px 15px;
@@ -5470,7 +5470,8 @@ button.list-group-item-danger.active:focus {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: inherit;
 }
 .panel-title > a,
@@ -5482,8 +5483,8 @@ button.list-group-item-danger.active:focus {
 }
 .panel-footer {
   padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #ddd;
+  
+  border-top: 0px solid #ddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -5703,6 +5704,7 @@ button.list-group-item-danger.active:focus {
 .panel-primary {
   border-color: #337ab7;
 }
+
 .panel-primary > .panel-heading {
   color: #fff;
   background-color: #337ab7;

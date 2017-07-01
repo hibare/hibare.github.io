@@ -1,0 +1,212 @@
+@font-face {
+    font-family: alumni;
+    src: url('alumni.ttf');
+}
+
+@font-face {
+    font-family: Florence-Regular;
+    src: url('Florence-Regular.ttf');
+}
+
+.theme-color {
+	color: #E74C3C!important;
+}
+
+.small{
+	width:60px;
+	height:2px;
+	color: #fff;
+	background-color:#fff!important;
+}
+
+.hr-padded {
+	margin-bottom:100px;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #21618C;
+  border-color: #2e6da4;
+  border-radius:10%;
+}
+.btn-custom:focus,
+.btn-custom.focus {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #c9302c;
+}
+.btn-custom:hover {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #c9302c;
+}
+
+.btn-custom-p {
+	float:right;
+	margin-top:15px;
+}
+
+
+.btn-custom2 {
+  color: #fff;
+  background-color: #FF3358;
+  border-color: #FF3358;
+  border-radius:10%;
+}
+.btn-custom2:focus,
+.btn-custom2.focus {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #c9302c;
+}
+.btn-custom2:hover {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #c9302c;
+}
+
+.btn-custom2-p {
+	float:right;
+	margin-top:15px;
+}
+.footer {
+  margin:0;
+  width:100%;
+  border-color: #080808;
+  padding: 10px 0;
+  margin-top: 30px;
+  position: absolute;
+  
+  
+
+}
+
+.footer .copyright {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover, a:focus {
+    text-decoration: none;
+}
+
+.footer .footer-social-links {
+  text-align: right;
+}
+
+.footer .footer-social-links a {
+  display: inline-block;
+  padding: 0 6px;
+}
+
+.footer-tag {
+	font-family:alumni;
+}
+
+.custom-color {
+	color: #21618C;
+}
+
+.custom-bg-color {
+	background-color: #21618C  ;
+}
+.custom-divider {
+	height:20px;
+}
+.card{
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panel-body-custom {
+  padding: 0px;
+}
+
+.panel-custom {
+  border-color: #21618C;
+}
+
+.panel-custom > .panel-heading {
+  color: #fff;
+  background-color: #21618C;
+  border-color: #21618C;
+}
+.panel-custom > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #21618C;
+}
+.panel-custom > .panel-heading .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.panel-custom > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #21618C;
+}
+
+.blog-title {
+	color: #000;
+}
+
+.blog-title:hover, .blog-title:focus, .blog-title:active {
+	color: #c9302c;
+	text-decoration: none;
+}
+
+.pop_image {
+	display:none;
+}
+
+.pop_btn {
+	display:block;
+}
+
+.social_dim {
+	width:40px;
+	height:40px;
+	margin-right:20px;
+	margin: 10px 20px 5px 0;
+}
+
+.modal-title-custom {
+	font-family:Florence-Regular;
+	font-size:30px;
+	background-color: #21618C;
+	color: #fff;
+}
+
+.modal-footer-custom {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	background-color: #21618C;
+	color: #fff;
+}
+
+.img-center-custom {
+	margin: 0 auto;
+}
+
+.required {
+	color:red;
+}
+
+.font-custom {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.padding-bottom-custom {
+	padding-bottom:5px;
+}
+
+.code-custom {
+	text-align:center;
+}
+
+.anchor-custom {
+	cursor: pointer;
+}
+
+.textdecoration-underline {
+	border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
