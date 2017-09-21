@@ -23,22 +23,38 @@
 	margin-bottom:100px;
 }
 
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout-danger {
+    border-left-color: red;
+}
+
+.bs-callout-info {
+    border-left-color: #01F801;
+}
+
 .btn-custom {
   color: #fff;
   background-color: #21618C;
   border-color: #2e6da4;
-  border-radius:10%;
+  border-radius:20px;
 }
 .btn-custom:focus,
 .btn-custom.focus {
   color: #fff;
-  background-color: #c9302c;
-  border-color: #c9302c;
+  background-color: #21618C;
+  border-color: #21618C;
 }
 .btn-custom:hover {
-  color: #fff;
-  background-color: #c9302c;
-  border-color: #c9302c;
+  color: #000;
+  background-color: #DDE1E8;
+  border-color: #DDE1E8;
 }
 
 .btn-custom-p {
@@ -162,10 +178,17 @@
 }
 
 .social_dim {
-	width:40px;
-	height:40px;
-	margin-right:20px;
-	margin: 10px 20px 5px 0;
+    height: 40px;
+    width: 40px;
+    margin: 10px 20px 0px 20px;
+}
+
+.social-dim {   
+	margin: 50px 20px 0px 20px;
+}
+
+.social-dim:hover {
+    color: darkblue;
 }
 
 .modal-title-custom {
@@ -209,4 +232,11 @@
 .textdecoration-underline {
 	border-bottom: 1px dotted #000;
     text-decoration: none;
+}
+
+.footer-text-white {
+    color: #FFF;
+}
+.footer-copyright-text{
+    text-align: right;
 }
