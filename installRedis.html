@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="It is a program written in C language which automated the process of updating a system. Instead of executing multiple commands to update the system, use this program to run all those commands in serial.">
+    <meta name="description" content="This project contain shell scripts to easily install and uninstall Redis on UBUNTU. This scripts are tested on UBUNTU 16.04 LTS and works perfectly on the test machine. These shell scripts are expected to work on any version of UBUNTU.">
     <meta name="author" content="Shubham Hibare">
 
-    <title>updateScript | Hibare</title>
+    <title>installRedis | Hibare</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -83,47 +83,48 @@
 				<div class="panel-body text-justify">
                     <ol class="breadcrumb">
                       <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                      <li class="active">Semi-automate system update process</li>
+                      <li class="active">Install Redis on UBUNTU</li>
                     </ol>
-					<h2 class="text-center">Semi-automate system update process</h2>
-					<p class="text-center">License: Apache License 2.0</p>
-                   
+					<h2 class="text-center">Install Redis on UBUNTU</h2>
+                    <p class="text-center">License: Unlicense</p>
 					<br/>
-					<h3>What it is?</h3>
-                    <p>It is a program written in C language which automated the process of updating a system. Instead of executing multiple commands to update the system, use this program to run all those commands in serial. If the operating system is ubuntu, the commands are automatically configured otherwise user is prompted to enter them during the installation. This program works perfectly on UBUNTU 16.04 LTS. </p>
+                    
+					 <h3>What it is?</h3>
+					<p>This project contains shell script that automates the process of installation and uninstallation of Redis on Ubuntu. These scripts are tested on UBUNTU 16.04 LTS and works perfectly. These scripts are expected to work any version of UBUNTU.</p>
                     
                     <h3>Whom it is for?</h3>
-                    <p>This program is intended for the users who wants semi automate the task of updating their system.</p>
+                    <p>These scripts are intended for the users who wants to get ride of the installation and uninstallation process of Redis and directly work on it.</p>
                     
-                    <h3>How to use this program?</h3>
+                    <h3>How to use this script?</h3>
                     <h4>Installation :-</h4>
-                    <p><strong>Step 1:</strong> Clone this repository and extract. After cloning, you'll have these three files in the directory: install.sh, uninstall.sh, LICENSE.txt and README.md and a src directory which contain file main.sh.</p>
+                    <p class="bs-callout bs-callout-info"><span style="color: #01F801"><i class="fa fa-info-circle" aria-hidden="true"></i> Note:</span> Working internet connection is required during installation process.<br/> Super user (root) access is required during installation and uninstallation process.</p>	
+                    
+                    <p><strong>Step 1:</strong> Clone this repository and extract. After cloning, you'll have these three files in the directory: install.sh, uninstall.sh and README.md. </p>
                     
                     <p><strong>Step 2:</strong> Open a terminal and navigate to the directory.</p>
                     
-                    <p><strong>Step 3:</strong> Run the command <code>"sh install.sh"</code> (Without quoted). If the operating system is UBUNTU, the update commands are automatically configured otherwise user is prompted to enter them. If prompted to enter the update commands, enter them one at a line at the end press CTRL+d to terminate input.</p>
+                    <p><strong>Step 3:</strong> Run the command <code>"sh install.sh" </code>(Without quoted). Installation script will automatically downloads the latest stable version of Redis and install it.</p>
                     
-                    <p><strong>Step 4:</strong> Once successfully installed, use command "update" (without quotes) to update your system.</p>
-                    
+                    <p><strong>Step 4:</strong> Use <code>redis-server</code> command to start the server and <code>redis-cli</code> command to open a client.</p>
                     <br/>
                     <h4>Uninstallation :-</h4>
                     <p><strong>Step 1:</strong> Open a terminal and navigate to the directory.</p>
                     
                     <p><strong>Step 2:</strong> run command <code>"sh uninstall.sh"</code> (without quotes).</p>
                     <br/>
-                    <a class="btn btn-custom" href="https://github.com/hibare/semi-automate-system-update-process"><i class="fa fa-github-alt" aria-hidden="true"></i> Go to repository <i class="glyphicon glyphicon-arrow-right"></i></a>
-                    <br/>
+                    <a class="btn btn-custom" href="https://github.com/hibare/Install-Redis-on-UBUNTU"><i class="fa fa-github-alt" aria-hidden="true"></i> Go to repository <i class="glyphicon glyphicon-arrow-right"></i></a>
                     
-                    <h3>Screenshots:</h3>
-                    <img src="img/updateScript/1.png" alt="semi-automate system update process" class="img-center-custom img-responsive"/><br/>
-                    
-                    <img src="img/updateScript/2.png" alt="semi-automate system update process" class="img-center-custom img-responsive"/><br/>
-                    
-                    <img src="img/updateScript/3.png" alt="semi-automate system update process" class="img-center-custom img-responsive"/><br/>
+                    <h3>Sceenshots:</h3>
+                    <img src="img/installRedis/1.png" alt="Install Redis on UBUNTU" class="img-center-custom img-responsive"/><br/>
+
+                    <img src="img/installRedis/2.png" alt="Install Redis on UBUNTU" class="img-center-custom img-responsive"/><br/>
+
+                                        
+
 				</div>
 				<!-- ./Panel Body -->
 				<div class="panel-footer">
-					<p class="bs-callout bs-callout-danger"><span style="color: red"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Disclaimer:</span> Author of this script is not responsible for any damage caused to your system from using this script. Use this script at your own risk.</p>
+					<p class="bs-callout bs-callout-danger"><span style="color: red"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Disclaimer:</span> Author of these scripts is not responsible for any damage caused to your system from using these scripts. Use these scripts at your own risk.</p>
                     
                     <p class="bs-callout bs-callout-info"><span style="color: #01F801"><i class="fa fa-info-circle" aria-hidden="true"></i> Note:</span> For any errors and queries contact from here- <a href="http://hibare.in">http://hibare.in</a>.</p>	
 				</div>
