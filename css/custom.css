@@ -191,6 +191,13 @@
     color: darkblue;
 }
 
+@media (min-width: 768px) {
+	.social-dim {
+		font-size: 5px;
+	
+	}
+}
+
 .modal-title-custom {
 	font-family:Florence-Regular;
 	font-size:30px;
